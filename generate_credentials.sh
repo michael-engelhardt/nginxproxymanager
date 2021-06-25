@@ -78,7 +78,8 @@ then
         sudo chown -R root:root .secrets
     fi
 
-    echo -e "${BackslashPur}You can delete this file now${RCol}"
+    echo -e "${BackslashPur}Run sudo rm -rf generate_credentials.sh to delete the generate_credentials.sh file${RCol}"
+    echo -e "${BackslashPur}Run sudo docker-compose up -d to install Nginx Proxy Manager${RCol}"
 
 
 # Reset Secrets Feature
